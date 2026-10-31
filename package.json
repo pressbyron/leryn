@@ -1,0 +1,12 @@
+{
+  "name": "zento",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Zento — svenska AI-kurser för nybörjare",
+  "scripts": {
+    "dev": "python3 -m http.server 5187 --bind 127.0.0.1",
+    "build": "node build.mjs",
+    "check": "node --check script.js && node --check runner.mjs && node --check runner-engine.mjs && node --check booking-config.js && node --check build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
