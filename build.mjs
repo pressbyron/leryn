@@ -5,4 +5,4 @@ for (const file of ['index.html', 'style.css', 'script.js', 'runner.mjs', 'runne
   await copyFile(file, `dist/${file}`);
 }
 await cp('assets', 'dist/assets', { recursive: true });
-console.log('Zento built → dist/');
+console.log('Leryn built → dist/');

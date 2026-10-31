@@ -4,7 +4,7 @@
    399 SEK per participant and Swish instructions in the confirmation.
    Increase capacity to 30 only when ready. Keep scheduling in Cal.com.
    Example path format: your-account/event-slug (not a full URL). */
-window.ZENTO_BOOKING = {
+window.LERYN_BOOKING = {
   origin: 'https://app.cal.com',
   contactEmail: 'peter.jaaskelainen@gmail.com',
   courses: {

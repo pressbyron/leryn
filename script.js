@@ -50,7 +50,7 @@ window.setInterval(() => {
 
 // Cal.com follows the existing EUC Stockholm B2C flow, but uses separate
 // 120-minute online group events. No EUC event is ever used as a fallback.
-const booking = window.ZENTO_BOOKING;
+const booking = window.LERYN_BOOKING;
 const bookingDialog = document.getElementById('bookingDialog');
 const bookingPending = document.getElementById('bookingPending');
 const bookingLive = document.getElementById('bookingLive');
@@ -136,7 +136,7 @@ function openBooking(courseId) {
   const available = isCalPath(course.calLink);
   bookingPending.hidden = available;
   bookingLive.hidden = !available;
-  const subject = `Intresse: ${course.title.replace(/\.$/, '')} – Zento`;
+  const subject = `Intresse: ${course.title.replace(/\.$/, '')} – Leryn`;
   const body = `Hej Peter!\n\nJag är intresserad av kursen ”${course.title}” online till pilotpriset 399 kr. Hör gärna av dig om kommande kurstillfällen.\n\nHälsningar,\n`;
   document.getElementById('interestLink').href = `mailto:${booking.contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   if (!available) activeCalLink = '';

@@ -1,8 +1,8 @@
 {
-  "name": "zento",
+  "name": "leryn",
   "private": true,
   "version": "1.0.0",
-  "description": "Zento — svenska AI-kurser för nybörjare",
+  "description": "Leryn — svenska AI-kurser för nybörjare",
   "scripts": {
     "dev": "python3 -m http.server 5187 --bind 127.0.0.1",
     "build": "node build.mjs",

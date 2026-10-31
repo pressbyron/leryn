@@ -1,4 +1,4 @@
-# Zento
+# Leryn
 
 En svensk B2C-sajt för AI-kurser live online. Fristående HTML, CSS och JavaScript, med samma Cal.com-baserade bokningsprincip som EUC Stockholm. Appkursen och spelkursen har separata tillfällen.
 
@@ -54,7 +54,7 @@ Inga egna analysverktyg, formulärservrar, cookies eller localStorage används. 
 
 ## Visuell identitet
 
-Logotyp: `assets/zento-logo.png`, transparent PNG skapad med imagegen. Ett vikt pappers-Z i tegelrött tillsammans med en mörk ordlogotyp. Full genereringsprompt och designanteckningar finns i `assets/logo-notes.md`. Favikonen är en liten förenklad SVG-variant.
+Logotyp: `assets/leryn-logo.png`, transparent PNG skapad med imagegen. Ett vikt pappers-L i tegelrött tillsammans med en mörk ordlogotyp. Full genereringsprompt och designanteckningar finns i `assets/logo-notes.md`. Favikonen är en liten förenklad SVG-variant.
 
 Sajtens identitet använder varma papperstoner, tegelrött, dämpad salvia och lugnare typografi. De dekorativa asteriskerna är borttagna. Huvudrubriken växlar mjukt mellan ”Din första app” och ”Ditt första spel” och respekterar minskad rörelse. Det interaktiva spelet och dess stjärnor är kvar.
 

@@ -3110,7 +3110,7 @@ dialog::backdrop {
   z-index:3
 }
 
-/* Zento's workshop identity: paper, ink and a folded brick-red Z. */
+/* Leryn's workshop identity: paper, ink and a folded brick-red L. */
 .brand,
 .footer-top .brand {
   position:relative;
@@ -3688,7 +3688,7 @@ dialog::backdrop {
   .experience-logos {grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;row-gap:21px;}
 }
 
-/* Zento / digital verkstad — an editorial, workshop-led visual identity. */
+/* Leryn / digital verkstad — an editorial, workshop-led visual identity. */
 :root {
   --paper:#f2eee5;
   --ink:#252c29;
